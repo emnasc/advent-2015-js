@@ -1,0 +1,11 @@
+{
+  "name": "advent-2015-js",
+  "version": "1.0.0",
+  "description": "An implementation of the Advent of Code challenges for the year 2015, written in JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emanoel Nascimento",
+  "license": "ISC"
+}
