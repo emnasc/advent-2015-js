@@ -2,8 +2,8 @@ const fs = require('fs')
 
 const inputFilesPath = "./static/input/"
 
-function readInput(day) {
-    const fileName = `2015-day${day}-input.txt`
+function readInputAsSTring(dayRef) {
+    const fileName = `2015-${dayRef}-input.txt`
 
     try {
         const input = fs.readFileSync(`${inputFilesPath}${fileName}`, 'utf-8')
@@ -13,4 +13,4 @@ function readInput(day) {
     }
 }
 
-module.exports = { readInput }
+module.exports = { readInputAsString: readInputAsSTring }
